@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+.Container{
+    align-items: center;
+}
+
+.container-img1 img{
+    width: 545px;
+    height: 800px;
+}
+
+.container-img2 img{
+    width: 545px;
+    height: 300px;
+}
+
+.container-video video{
+    width: 545px;
+    height: 800px;
+}
+
+@media only screen and (max-width:500px){
+    .container-img1 img{
+        width: 300px;
+        height: 600px;
+    }
+
+    .container-video video{
+        width: 300px;
+        height: 650px;
+    }
+
+    .container-img2 img{
+        width: 300px;
+        height: 175px;
+    }
+    
+} 
